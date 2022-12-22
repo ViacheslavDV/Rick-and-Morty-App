@@ -1,0 +1,7 @@
+.wrapper {
+	@apply flex mx-auto justify-center pt-24 w-[100%] text-rose-500;
+}
+
+.icon {
+	@apply h-[20px] w-[20px] ml-2 mt-[3px];
+}

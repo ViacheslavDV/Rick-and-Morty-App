@@ -1,0 +1,72 @@
+.container {
+	@apply flex flex-col text-white h-[100vh];
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.wrapper {
+	@apply flex flex-row flex-wrap justify-center mt-10;
+}
+
+.status {
+	@apply flex mx-auto justify-center pt-10;
+}
+
+.image {
+	@apply rounded-xl m-2 shadow-2xl border-2 border-slate-800;
+}
+
+.dataItems {
+	@apply w-[325px] px-3 flex flex-col my-16 max-sm:my-2;
+}
+
+.list {
+	@apply my-1 flex flex-row flex-nowrap;
+}
+
+.name {
+	@apply font-bold text-lg;
+}
+
+.human {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-emerald-300 text-slate-100 rounded-md;
+}
+
+.alien {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-black text-purple-700 rounded-md;
+}
+
+.unknownGender {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-sky-200 text-rose-500 rounded-md;
+}
+
+.male {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-blue-500 rounded-md;
+}
+
+.female {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-pink-500 rounded-md;
+}
+
+.alive {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-green-500 rounded-md;
+}
+
+.dead {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] bg-red-700 rounded-md;
+}
+
+.unknown {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] rounded-md bg-slate-500;
+}
+
+.location {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] rounded-md bg-indigo-900 text-green-400;
+}
+
+.click {
+	@apply ml-8 w-[24px] h-[24px] p-[2px] rounded-md bg-slate-600;
+}
+
+.origin {
+	@apply mr-2 w-[24px] h-[24px] p-[2px] rounded-md bg-pink-600 text-slate-100;
+}

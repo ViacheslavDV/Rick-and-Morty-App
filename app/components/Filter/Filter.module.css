@@ -1,0 +1,27 @@
+.wrapper {
+	@apply flex flex-row flex-wrap mx-auto mb-5 justify-around max-w-[1400px] max-md:flex-col;
+}
+
+.select {
+	@apply flex flex-row max-md:flex-col;
+}
+
+.fixedPosition {
+	@apply absolute max-md:relative max-md:mx-auto;
+}
+
+.status {
+	@apply cursor-pointer underline text-indigo-700 ml-2;
+}
+
+.popupStatus {
+	@apply flex flex-col relative top-2 left-5 border border-solid text-white bg-slate-700 p-2 rounded-md;
+}
+
+.popupGender {
+	@apply flex flex-col relative top-2 left-6 border border-solid text-white bg-slate-700 p-2 rounded-md;
+}
+
+.chooseStatus {
+	@apply text-center cursor-pointer mt-[1px] hover:bg-slate-300 rounded-md;
+}

@@ -1,0 +1,7 @@
+.wrapper {
+	@apply flex flex-row justify-around w-[100%] p-2 bg-black text-white;
+}
+
+.link {
+	@apply cursor-pointer hover:text-slate-300;
+}

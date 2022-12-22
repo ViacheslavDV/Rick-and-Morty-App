@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "Cronenberg",
+    "Microverse",
+    "Morty",
+    "rickandmortyapi",
+    "tailwindcss",
+    "tanstack"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

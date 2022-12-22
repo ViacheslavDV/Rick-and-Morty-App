@@ -1,0 +1,44 @@
+.wrapper {
+	@apply flex mx-auto flex-col text-white min-h-[1000px];
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.search {
+	@apply flex mx-auto;
+}
+
+.container {
+	@apply flex mx-auto max-w-[1400px] flex-wrap justify-center mt-2;
+}
+
+.loader {
+	@apply flex flex-wrap mx-auto justify-center pt-10 w-[100%];
+}
+
+.infinite {
+	@apply flex flex-wrap justify-center;
+}
+
+.border {
+	@apply p-4 border-2 border-slate-500 m-4 w-[340px] rounded-md shadow-md hover:bg-slate-800 hover:border-slate-200;
+}
+
+.name {
+	@apply text-center mt-2 overflow-hidden max-h-[24px] font-bold;
+}
+
+.type {
+	@apply text-center mt-2 overflow-hidden max-h-[24px] flex flex-row justify-center;
+}
+
+.hive {
+	@apply h-[24px] mr-2 text-yellow-400;
+}
+
+.dimension {
+	@apply text-center mt-2 overflow-hidden max-h-[24px] flex flex-row justify-center;
+}
+
+.planet {
+	@apply h-[24px] mr-2 text-violet-800;
+}

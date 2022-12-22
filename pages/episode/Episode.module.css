@@ -1,0 +1,40 @@
+.info {
+	@apply flex mx-auto justify-center pt-10;
+}
+
+.top {
+	@apply pt-5 pb-28 text-white min-h-[1000px];
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.name {
+	@apply flex justify-center mt-2 font-bold;
+}
+
+.episode {
+	@apply text-center mt-2 overflow-hidden h-[24px] flex flex-row justify-center text-stone-600;
+}
+
+.list {
+	@apply h-[24px] mr-2 text-slate-500;
+}
+
+.date {
+	@apply text-center mt-2 overflow-hidden h-[24px] flex flex-row justify-center;
+}
+
+.calendar {
+	@apply h-[24px] mr-2 text-cyan-600;
+}
+
+.characters {
+	@apply flex justify-center font-medium mt-4;
+}
+
+.container {
+	@apply flex flex-row flex-wrap max-w-[1400px] mx-auto justify-center;
+}
+
+.border {
+	@apply m-5 p-1 border-2 border-slate-500 hover:border-slate-200 hover:bg-slate-800 cursor-pointer hover:shadow-md rounded-md;
+}

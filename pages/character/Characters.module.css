@@ -1,0 +1,32 @@
+.wrapper {
+	@apply flex mx-auto flex-col text-white min-h-[1000px];
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.search {
+	@apply flex mx-auto;
+}
+
+.container {
+	@apply flex mx-auto max-w-[1400px] flex-wrap justify-center mt-2;
+}
+
+.loader {
+	@apply flex mx-auto justify-center pt-10 w-[100%];
+}
+
+.infinite {
+	@apply flex flex-wrap justify-center;
+}
+
+.icon {
+	@apply p-4 border-2 border-slate-500 m-4 rounded-md w-[270px] h-[290px] shadow-md hover:bg-slate-800 hover:border-slate-200;
+}
+
+.image {
+	@apply rounded-md;
+}
+
+.name {
+	@apply text-center mt-1 overflow-hidden h-[24px];
+}
